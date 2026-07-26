@@ -1,0 +1,25 @@
+{
+  "name": "WordLoop — COCA 20K",
+  "short_name": "WordLoop",
+  "description": "一遍遍过 COCA 高频 20,000 词，认识的直接删除。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f1e9",
+  "theme_color": "#f4f1e9",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
