@@ -1,7 +1,7 @@
-const CACHE_NAME = "wordloop-pages-v1";
+const CACHE_NAME = "wordloop-pages-v2";
 const APP_ROOT = new URL("./", self.location.href);
+const INDEX_URL = new URL("./index.html", APP_ROOT).href;
 const CORE_ASSETS = [
-  "./",
   "./index.html",
   "./assets/app.js",
   "./assets/app.css",
@@ -40,7 +40,7 @@ self.addEventListener("fetch", (event) => {
   if (event.request.mode === "navigate") {
     event.respondWith(
       fetch(event.request).catch(
-        () => caches.match(APP_ROOT.href) || Response.error(),
+        () => caches.match(INDEX_URL) || Response.error(),
       ),
     );
     return;
