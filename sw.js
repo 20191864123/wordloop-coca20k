@@ -6,7 +6,7 @@ const CORE_ASSETS = [
   "./assets/app.js",
   "./assets/app.css",
   "./data/coca-20000.json",
-  "./manifest.webmanifest",
+  "./manifest.json",
   "./icon-192.png",
   "./icon-512.png",
   "./apple-touch-icon.png",
